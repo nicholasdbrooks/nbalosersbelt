@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  background-color: #8d99ae;
+}
+
+body {
+  font-family: monospace !important;
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright {
+  font-size: small;
+  position:absolute;
+  bottom:0;
+}
+
+.page {
+  width: 80%;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.accordion {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#seasonSelector {
+  font-size: large;
+}
+
+.accordion-body {
+  color:#2b2d42;
+  text-align: left;
+  font-size: large;
+}
+
+#navbrand {
+  color:#d80032;
+}
+
+#losersTable {
+  font-family:monospace;
+  border-collapse: collapse;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+  color:#2b2d42;
+  width: 70%;
+  border: 1px solid;
+}
+
+#losersTable tr:nth-child(even){
+  background-color: #edf2f4;
+}
+
+#losersTable tr:nth-child(odd){
+  background-color: #e4a6ad;
+}
+
+#losersTable tr:hover {
+  background-color: #e07380;
+}
+
+#losersTable tr {
+  text-align: left;
+}
+
+#losersTable th {
+  text-align: center;
+  background-color: #d80032;
+}
+
+th, td {
+  border: 1px solid !important;
+  padding: 5px;
+}
+
+#hiddenEls {
+  visibility: hidden;
+  height: 500px;
+}
+
+.App-header {
+  background-color: #8d99ae;
+  background-size: cover;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #2b2d42;
+}
+
+#barChart {
+  background-color: #edf2f4;
+  border: 1px solid #2b2d42;
+}
